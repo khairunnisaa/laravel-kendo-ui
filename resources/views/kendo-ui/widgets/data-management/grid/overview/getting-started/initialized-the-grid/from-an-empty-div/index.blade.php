@@ -53,6 +53,9 @@
                 }],
                 dataSource: {
                     data: {!! json_encode($products) !!}
+                },
+                pageable: {
+                    pageSize: 10
                 }
             });
         });

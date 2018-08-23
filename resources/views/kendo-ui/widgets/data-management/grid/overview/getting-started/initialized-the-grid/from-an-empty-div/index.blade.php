@@ -28,6 +28,9 @@
                         FirstName: 'Jane',
                         LastName: 'Smith'
                     }]
+                },
+                    pageable: {
+                    pageSize: 2
                 }
             });
 
